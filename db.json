@@ -1,14 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  
+{
+  "MC": {
+    "rowSpacing": 10,
+    "columnSpacing": 10,
+    "columns": 4,
+    "aspectRatio": 2.4727
+  },
+  "CATEGORY": [
+    {
+      "cellRatio": {
+        "y": 0,
+        "x": 0,
+        "w": 1,
+        "h": 1
+      },
+      "catId": "C0",
+      "name": "Action and Adventure"
+    },
+    {
+      "cellRatio": {
+        "y": 0,
+        "x": 1,
+        "w": 1,
+        "h": 1
+      },
+      "catId": "C1",
+      "name": "Classics"
+    },
+    {
+      "cellRatio": {
+        "y": 0,
+        "x": 2,
+        "w": 1,
+        "h": 1
+      },
+      "catId": "C2",
+      "name": "Comic"
+    },
+    {
+      "cellRatio": {
+        "y": 0,
+        "x": 3,
+        "w": 1,
+        "h": 1
+      },
+      "catId": "C3",
+      "name": "Mystery"
+    },
+    {
+      "cellRatio": {
+        "y": 0,
+        "x": 4,
+        "w": 1,
+        "h": 1
+      },
+      "catId": "C4",
+      "name": "Fantasya"
+    }
+  ]
+}
+
 }
