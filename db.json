@@ -1,7 +1,7 @@
 {
   
   
-  "CATEGORY": [
+   "CATEGORY": [
     {
       "cellRatio": {
         "y": 0,
@@ -9,8 +9,10 @@
         "w": 1,
         "h": 1
       },
-      "catId": "C0",
-      "name": "Action and Adventure"
+      "id": "C0",
+      "name": "Action and Adventure",
+      "subTitle": "Action and Adventure",
+      "image": "ic_logo"
     },
     {
       "cellRatio": {
@@ -19,8 +21,10 @@
         "w": 1,
         "h": 1
       },
-      "catId": "C1",
-      "name": "Classics"
+      "id": "C1",
+      "name": "Classics",
+      "subTitle": "Classics",
+      "image": "ic_logo"
     },
     {
       "cellRatio": {
@@ -29,8 +33,10 @@
         "w": 1,
         "h": 1
       },
-      "catId": "C2",
-      "name": "Comic"
+      "id": "C2",
+      "name": "Comic",
+      "subTitle": "Comic",
+      "image": "ic_logo"
     },
     {
       "cellRatio": {
@@ -39,8 +45,10 @@
         "w": 1,
         "h": 1
       },
-      "catId": "C3",
-      "name": "Mystery"
+      "id": "C3",
+      "name": "Mystery",
+      "subTitle": "Mystery",
+      "image": "ic_logo"
     },
     {
       "cellRatio": {
@@ -49,8 +57,10 @@
         "w": 1,
         "h": 1
       },
-      "catId": "C4",
-      "name": "Fantasya"
+      "id": "C4",
+      "name": "Fantasya",
+      "subTitle": "Fantasya",
+      "image": "ic_logo"
     }
   ],
 
@@ -62,7 +72,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L0",
+      "id": "L0",
       "name": "English",
       "subTitle": "1000 Books",
       "image" : "ic_lang_english"
@@ -74,7 +84,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L1",
+      "id": "L1",
       "name": "Marathi",
       "subTitle": "100 Books",
       "image" : "ic_lang_marathi"
@@ -85,7 +95,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L2",
+      "id": "L2",
       "name": "Hindi",
       "subTitle": "100 Books",
       "image" : "ic_lang_hindi"
@@ -97,7 +107,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L1",
+      "id": "L3",
       "name": "Gujarati",
       "subTitle": "10 Books",
       "image" : "ic_lang_gujarati"
@@ -109,7 +119,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L4",
+      "id": "L4",
       "name": "Gujarati",
       "subTitle": "1 Books",
       "image" : "ic_lang_gujarati"
@@ -121,7 +131,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L5",
+      "id": "L5",
       "name": "Bengali",
       "subTitle": "500 Books",
       "image" : "ic_lang_bengali"
@@ -133,7 +143,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L6",
+      "id": "L6",
       "name": "Malayalam",
       "subTitle": "500 Books",
       "image" : "ic_lang_malayalam"
@@ -145,7 +155,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L7",
+      "id": "L7",
       "name": "Telgu",
       "subTitle": "500 Books",
       "image" : "ic_lang_telgu"
@@ -157,7 +167,7 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L8",
+      "id": "L8",
       "name": "Tamil",
       "subTitle": "500 Books",
       "image" : "ic_lang_tamil"
@@ -169,10 +179,2127 @@
         "w": 4,
         "h": 1
       },
-      "catId": "L9",
+      "id": "L9",
       "name": "Bengalis",
       "subTitle": "500 Books",
       "image": "ic_lang_telgu"
+    }
+  ],
+  
+
+ "BOOKS": [
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": true,
+      "bookId": "B0",
+      "coverImage": "book31",
+      "catId": "C0",
+      "title": "Living in the Light",
+      "subTitle": "A guide to personal transformation",
+      "category": "Action and Adventure",
+      "rating": 4,
+      "year": 1986,
+      "text": "I would like to acknowledge Laurel King for her help with the\noriginal edition of this book. I appreciate Lora O’Connor for her\nmany valuable suggestions and overall support in creating this\nrevised edition. I’m very grateful to Becky Benenate, my editor for\nthe revised edition, for all her help and especially her willingness to\nwork with my schedule and pull off a miracle of timing! Thanks, \n\nto Katherine Dieter for her input, and to Marc Allen for his ongoing-\ning support. Kathy Altman, as always, has contributed her ideas\n\nand energy to the project. Jim Burns, thank you for your love and\nencouragement. Most of all I thank my readers, whose love and\nappreciation have been my inspiration and my reward.",
+      "price": "$9.99",
+      "bookType": [
+        {
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book31.pdf",
+          "type": "pdf"
+        },
+        {
+          "localFileResource": "book31.epub",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "type": "epub"
+        }
+      ],
+      "author": {
+        "name": "David Sargent",
+        "publication": "Revised Edition"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "bookId": "B1",
+      "coverImage": "book32",
+      "fav": false,
+      "catId": "C0",
+      "title": "He's Not That Complicated",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Action and Adventure",
+      "year": "2020",
+      "rating": "3",
+      "text": "Once upon a time, long before A New Mode even existed, I was just\nlike you - an amazing woman with plenty to offer who just couldn’t\nseem to get the love I wanted.\nI wanted to have an amazing relationship with an amazing guy, a guy\nwho loved and appreciated me for exactly who I was, but it just never\npanned out. It wasn’t that I couldn’t get a man; it was that I couldn’t\nseem to make it stick. And even when I did find myself in a\nrelationship, I always felt like I was at the mercy of the guy like the\nrelationship was a ticking time bomb and the slightest movement on\nmy part would set it off and send him running for cover.\nI could never really enjoy my relationships because I was crippled by\nthe fear of everything coming apart.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "epub",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book32.epub"
+        },
+        {
+          "type": "mobi",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book32.mobi"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "Unkonwn"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Bartrams Encyclopedia of Herbal Medicine",
+      "fav": false,
+      "catId": "C0",
+      "bookId": "B2",
+      "coverImage": "book1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Action and Adventure",
+      "rating": 2,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book1.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Set For Life",
+      "fav": true,
+      "catId": "C0",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "bookId": "B3",
+      "coverImage": "book2",
+      "category": "Action and Adventure",
+      "rating": 1,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book2.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Something Gained",
+      "bookId": "B4",
+      "coverImage": "book3",
+      "fav": false,
+      "catId": "C0",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Action and Adventure",
+      "rating": 5,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book3.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "The Earth Revisited",
+      "fav": false,
+      "bookId": "B5",
+      "coverImage": "book4",
+      "catId": "C0",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Action and Adventure",
+      "rating": 2,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book4.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "The Eternity Runin",
+      "fav": false,
+      "catId": "C0",
+      "bookId": "B6",
+      "coverImage": "book5",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Action and Adventure",
+      "rating": 5,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book5.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Create Business Startup",
+      "fav": false,
+      "catId": "C0",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "bookId": "B7",
+      "coverImage": "book6",
+      "category": "Action and Adventure",
+      "rating": 4,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book6.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Money By The Book",
+      "fav": false,
+      "catId": "C0",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "bookId": "B8",
+      "coverImage": "book7",
+      "category": "Action and Adventure",
+      "rating": 3,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book7.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "The Novel Name",
+      "fav": false,
+      "catId": "C0",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "bookId": "B9",
+      "coverImage": "book8",
+      "category": "Action and Adventure",
+      "rating": 2.5,
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book8.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": false,
+      "title": "Waking Up To Money",
+      "bookId": "B10",
+      "coverImage": "book9",
+      "catId": "C1",
+      "rating": 2,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book9.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Other Peoples Money",
+      "fav": false,
+      "bookId": "B11",
+      "coverImage": "book10",
+      "catId": "C1",
+      "rating": 4,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book10.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Scott Trench",
+      "fav": false,
+      "bookId": "B12",
+      "coverImage": "book11",
+      "catId": "C1",
+      "rating": 1,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book11.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": false,
+      "title": "Deb Purdy",
+      "bookId": "B13",
+      "coverImage": "book12",
+      "catId": "C1",
+      "rating": 1.5,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book12.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": false,
+      "title": "Genre",
+      "bookId": "B14",
+      "coverImage": "book13",
+      "rating": 4,
+      "catId": "C1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book13.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": false,
+      "title": "Genere",
+      "bookId": "B15",
+      "coverImage": "book14",
+      "rating": 4,
+      "catId": "C1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book14.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": false,
+      "title": "Jen Brazel",
+      "bookId": "B16",
+      "coverImage": "book15",
+      "rating": 2,
+      "catId": "C1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book15.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Doe",
+      "fav": false,
+      "bookId": "B17",
+      "coverImage": "book16",
+      "rating": 4,
+      "catId": "C1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book16.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Dave Olson",
+      "fav": false,
+      "bookId": "B18",
+      "coverImage": "book17",
+      "rating": 4,
+      "catId": "C1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book17.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Unknown",
+      "fav": false,
+      "bookId": "B19",
+      "coverImage": "book18",
+      "rating": 3,
+      "catId": "C1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book18.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Kim M Jones",
+      "fav": false,
+      "bookId": "B20",
+      "coverImage": "book19",
+      "rating": 4,
+      "catId": "C1",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book19.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Kay",
+      "fav": false,
+      "bookId": "B21",
+      "coverImage": "book20",
+      "catId": "C1",
+      "rating": 2.5,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book20.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Waking Up To Money",
+      "fav": false,
+      "bookId": "B22",
+      "coverImage": "book9",
+      "catId": "C2",
+      "rating": 2,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book9.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Other Peoples Money",
+      "fav": false,
+      "bookId": "B23",
+      "coverImage": "book10",
+      "catId": "C2",
+      "rating": 4,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book10.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Scott Trench",
+      "fav": true,
+      "bookId": "B24",
+      "coverImage": "book11",
+      "catId": "C2",
+      "rating": 1,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book11.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Doe",
+      "fav": false,
+      "bookId": "B25",
+      "coverImage": "book16",
+      "rating": 4,
+      "catId": "C2",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book16.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Dave Olson",
+      "fav": false,
+      "bookId": "B26",
+      "coverImage": "book17",
+      "rating": 4,
+      "catId": "C2",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book17.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Kim M Jones",
+      "bookId": "B28",
+      "coverImage": "book19",
+      "fav": false,
+      "rating": 4,
+      "catId": "C2",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book19.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Unknown",
+      "bookId": "B27",
+      "coverImage": "book18",
+      "fav": false,
+      "rating": 3,
+      "catId": "C2",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book18.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Kay",
+      "fav": false,
+      "bookId": "B29",
+      "coverImage": "book20",
+      "catId": "C2",
+      "rating": 2.5,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Comic",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book20.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": false,
+      "title": "Waking Up To Money",
+      "bookId": "B30",
+      "coverImage": "book9",
+      "catId": "C3",
+      "rating": 2,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Health",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book9.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Other Peoples Money",
+      "fav": false,
+      "bookId": "B31",
+      "coverImage": "book10",
+      "catId": "C3",
+      "rating": 4,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book10.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Scott Trench",
+      "fav": false,
+      "bookId": "B32",
+      "coverImage": "book11",
+      "catId": "C3",
+      "rating": 1,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book11.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Deb Purdy",
+      "fav": false,
+      "bookId": "B33",
+      "coverImage": "book12",
+      "catId": "C3",
+      "rating": 1.5,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book12.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Genre",
+      "fav": false,
+      "bookId": "B34",
+      "coverImage": "book13",
+      "rating": 4,
+      "catId": "C3",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book13.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Genere",
+      "fav": false,
+      "bookId": "B35",
+      "coverImage": "book14",
+      "rating": 4,
+      "catId": "C3",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book14.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Doe",
+      "fav": false,
+      "bookId": "B37",
+      "coverImage": "book16",
+      "rating": 4,
+      "catId": "C3",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book16.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Jen Brazel",
+      "bookId": "B36",
+      "coverImage": "book15",
+      "fav": false,
+      "rating": 2,
+      "catId": "C3",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book15.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Unknown",
+      "fav": false,
+      "bookId": "B39",
+      "coverImage": "book18",
+      "rating": 3,
+      "catId": "C3",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book18.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Kim M Jones",
+      "bookId": "B40",
+      "coverImage": "book19",
+      "fav": false,
+      "rating": 4,
+      "catId": "C3",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book19.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Dave Olson",
+      "bookId": "B38",
+      "coverImage": "book17",
+      "fav": false,
+      "rating": 4,
+      "catId": "C3",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book17.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Kay",
+      "fav": false,
+      "bookId": "B41",
+      "coverImage": "book20",
+      "catId": "C3",
+      "rating": 2.5,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Mystery",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book20.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Waking Up To Money",
+      "bookId": "B42",
+      "coverImage": "book9",
+      "fav": false,
+      "catId": "C4",
+      "rating": 2,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book9.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Other Peoples Money",
+      "fav": false,
+      "bookId": "B43",
+      "coverImage": "book10",
+      "catId": "C4",
+      "rating": 4,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book10.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Scott Trench",
+      "fav": false,
+      "bookId": "B44",
+      "coverImage": "book11",
+      "catId": "C4",
+      "rating": 1,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book11.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "fav": false,
+      "title": "Deb Purdy",
+      "bookId": "B45",
+      "coverImage": "book12",
+      "catId": "C4",
+      "rating": 1.5,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book12.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Genere",
+      "bookId": "B47",
+      "coverImage": "book14",
+      "fav": false,
+      "rating": 4,
+      "catId": "C4",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book14.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Genre",
+      "fav": false,
+      "bookId": "B46",
+      "coverImage": "book13",
+      "rating": 4,
+      "catId": "C4",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book13.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Jen Brazel",
+      "fav": false,
+      "bookId": "B48",
+      "coverImage": "book15",
+      "rating": 2,
+      "catId": "C4",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book15.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Doe",
+      "fav": false,
+      "bookId": "B49",
+      "coverImage": "book16",
+      "rating": 4,
+      "catId": "C4",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book16.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Dave Olson",
+      "bookId": "B50",
+      "coverImage": "book17",
+      "fav": false,
+      "rating": 4,
+      "catId": "C4",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book17.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Kim M Jones",
+      "fav": false,
+      "bookId": "B52",
+      "coverImage": "book19",
+      "rating": 4,
+      "catId": "C4",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book19.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "John Kay",
+      "fav": false,
+      "bookId": "B53",
+      "coverImage": "book20",
+      "catId": "C4",
+      "rating": 2.5,
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book20.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    },
+    {
+      "language": [
+        {
+          "name": "English",
+          "id": 0
+        },
+        {
+          "name": "Marathi",
+          "id": 1
+        },
+        {
+          "name": "Hindi",
+          "id": 2
+        }
+      ],
+      "title": "Unknown",
+      "fav": false,
+      "bookId": "B51",
+      "coverImage": "book18",
+      "rating": 3,
+      "catId": "C4",
+      "subTitle": "Almost everything will work again if you unplug it for a few minutes, including you.",
+      "category": "Fantasya",
+      "year": "2020",
+      "text": "FOR over half a century I have known Mr. Thomas Bartram and welcomed his unflinching advocacy of\nnatural and herbal medicine as a Council Member and Fellow of the National Institute of Medical\nHerbalists. It is an honor to be invited to write a foreword for his magnum opus.\nOne of the compensations of increasing years is a growing maturity of judgment and a balanced\nobjectivity. This is evident in the present work. The author is able to draw from experience in relation to established medicine and from many decades as a practitioner of herbal medicine. During his busy life, Mr\nBartram has read voraciously in all cognate aspects of phytotherapy. This is demonstrated in the pages of\nthe widely acclaimed magazine “Grace” which he founded in 1960. For thirty years his gentle and kindly\nadvice of natural and safe medication, in association with a high Christian ethic, has aided the restoration\nof health and hope of its readers. “Recapture the thrill of living” is the author’s watchword.\nThis the volume contains the distilled wisdom of a life spent in the cause of natural medicine: the\nquintessence of a herbal practitioner’s experience; a book of reference and information to help the\nrestoration and maintenance of health for all its readers. I wish it every success. Ex. herbs remedial.",
+      "price": "$2.99",
+      "bookType": [
+        {
+          "type": "pdf",
+          "bookUrl": "http://www.pdf995.com/samples/pdf.pdf",
+          "localFileResource": "book18.pdf"
+        }
+      ],
+      "author": {
+        "name": "Sabrina Alexis & Eric Charles",
+        "publication": "The Herball"
+      }
+    }
+  ],
+
+"ACTIONBAR": [
+    {
+      "id": "A0",
+      "name": "SEARCH",
+      "subTitle": "SEARCH",
+      "image": "ic_search.png",
+      "cellRatio": {
+        "y": 0,
+        "x": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "id": "A1",
+      "name": "NONE",
+      "subTitle": "NONE",
+      "image": "NONE",
+      "cellRatio": {
+        "y": 0,
+        "x": 1,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "id": "A2",
+      "name": "FAVOURITE",
+      "subTitle": "FAVOURITE",
+      "image": "ic_favorite.png",
+      "cellRatio": {
+        "y": 0,
+        "x": 2,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "id": "A3",
+      "name": "NOTIFICATION",
+      "subTitle": "NOTIFICATION",
+      "image": "ic_notification.png",
+      "cellRatio": {
+        "y": 0,
+        "x": 3,
+        "w": 1,
+        "h": 1
+      }
     }
   ]
 
