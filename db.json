@@ -1,12 +1,6 @@
 {
   
-{
-  "MC": {
-    "rowSpacing": 10,
-    "columnSpacing": 10,
-    "columns": 4,
-    "aspectRatio": 2.4727
-  },
+  
   "CATEGORY": [
     {
       "cellRatio": {
@@ -59,6 +53,6 @@
       "name": "Fantasya"
     }
   ]
-}
+
 
 }
