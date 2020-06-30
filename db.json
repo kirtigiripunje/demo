@@ -52,6 +52,128 @@
       "catId": "C4",
       "name": "Fantasya"
     }
+  ],
+
+  "LANGUAGE": [
+    {
+      "cellRatio": {
+        "y": 0,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L0",
+      "name": "English",
+      "subTitle": "1000 Books",
+      "image" : "ic_lang_english"
+    },
+    {
+      "cellRatio": {
+        "y": 1,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L1",
+      "name": "Marathi",
+      "subTitle": "100 Books",
+      "image" : "ic_lang_marathi"
+    },{
+      "cellRatio": {
+        "y": 2,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L2",
+      "name": "Hindi",
+      "subTitle": "100 Books",
+      "image" : "ic_lang_hindi"
+    },
+    {
+      "cellRatio": {
+        "y": 3,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L1",
+      "name": "Gujarati",
+      "subTitle": "10 Books",
+      "image" : "ic_lang_gujarati"
+    },
+    {
+      "cellRatio": {
+        "y": 4,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L4",
+      "name": "Gujarati",
+      "subTitle": "1 Books",
+      "image" : "ic_lang_gujarati"
+    },
+    {
+      "cellRatio": {
+        "y": 5,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L5",
+      "name": "Bengali",
+      "subTitle": "500 Books",
+      "image" : "ic_lang_bengali"
+    },
+    {
+      "cellRatio": {
+        "y": 6,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L6",
+      "name": "Malayalam",
+      "subTitle": "500 Books",
+      "image" : "ic_lang_malayalam"
+    },
+    {
+      "cellRatio": {
+        "y": 7,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L7",
+      "name": "Telgu",
+      "subTitle": "500 Books",
+      "image" : "ic_lang_telgu"
+    },
+    {
+      "cellRatio": {
+        "y": 8,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L8",
+      "name": "Tamil",
+      "subTitle": "500 Books",
+      "image" : "ic_lang_tamil"
+    },
+    {
+      "cellRatio": {
+        "y": 9,
+        "x": 0,
+        "w": 4,
+        "h": 1
+      },
+      "catId": "L9",
+      "name": "Bengalis",
+      "subTitle": "500 Books",
+      "image": "ic_lang_telgu"
+    }
   ]
 
 
