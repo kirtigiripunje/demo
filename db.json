@@ -1,60 +1,35 @@
 {
   "CATEGORY": [
     {
-      "cellRatio": {
-        "y": 0,
-        "x": 0,
-        "w": 1,
-        "h": 1
-      },
+      
       "id": "C0",
       "name": "Action and Adventure",
       "subTitle": "Action and Adventure",
       "image": "ic_logo"
     },
     {
-      "cellRatio": {
-        "y": 0,
-        "x": 1,
-        "w": 1,
-        "h": 1
-      },
+       
       "id": "C1",
       "name": "Classics",
       "subTitle": "Classics",
       "image": "ic_logo"
     },
     {
-      "cellRatio": {
-        "y": 0,
-        "x": 2,
-        "w": 1,
-        "h": 1
-      },
+      
       "id": "C2",
       "name": "Comic",
       "subTitle": "Comic",
       "image": "ic_logo"
     },
     {
-      "cellRatio": {
-        "y": 0,
-        "x": 3,
-        "w": 1,
-        "h": 1
-      },
+       
       "id": "C3",
       "name": "Mystery",
       "subTitle": "Mystery",
       "image": "ic_logo"
     },
     {
-      "cellRatio": {
-        "y": 0,
-        "x": 4,
-        "w": 1,
-        "h": 1
-      },
+     
       "id": "C4",
       "name": "Fantasya",
       "subTitle": "Fantasya",
